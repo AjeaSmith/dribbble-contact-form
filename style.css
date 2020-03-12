@@ -45,6 +45,7 @@ body{
     font-size: 0.9em;
     position: absolute;
     top:18em;
+    width: 300px;
     border-radius: 10px;
     background: #F93C8D;
     clip-path: polygon(0% 0%, 100% 0%, 100% 47%, 75% 48%, 74% 67%, 52% 50%, 0% 50%);

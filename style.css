@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 body{
     height: 100vh;
@@ -12,13 +13,66 @@ body{
     width:100%;
     height: 100%;
     position: absolute;
-    background-image: url("images/joey-csunyo-NwGMe-NuDm0-unsplash.jpg");
+    background-image: linear-gradient(to top, rgba(36, 80, 213, 0.20), rgba(36, 79, 213, 0.85)),url("images/joey-csunyo-NwGMe-NuDm0-unsplash.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    transform: skew(0deg, -14deg) translateY(-161px);
+    clip-path: polygon(0 0, 100% 0, 100% 64%, 0 100%);
 }
 .container{
+    height: 100%;
     z-index: 100;
-    padding: 10em;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.container .left h2{
+    margin-bottom: 0.5em;
+    font-weight: 500;
+    color: white
+}
+.container .left p{
+    line-height: 1.4em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.container .left, .container .right {
+    margin-top: 2.5em;
+}
+.container .right form{
+    -webkit-box-shadow:0 0 30px rgba(46, 46, 46, 0.406);
+	-moz-box-shadow:0 0 30px rgba(46, 46, 46, 0.406);
+	box-shadow:0 0 30px rgba(46, 46, 46, 0.406);
+    /* height: 520px; */
+    background: white;
+    color: black;
+    padding: 1.2em;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+.container .right form h3{
+    margin-bottom: 1.3em;
+}
+.container .right form p{
+    margin-top: 1em;
+}
+.container .right form input{
+    border: 0;
+    border-bottom: 1px solid gray;
+    padding: 0.4em 0;
+    width: 100%;
+    margin-bottom: 2.5em;
+}
+.container .right form .form_radio .radio_inputs{
+    width: auto;
+    margin-top:2em;
+    margin-bottom: 0;
+}
+.container .right form .form_radio label{
+    margin-right: 1.5em;
+}
+.container .right form textarea{
+    border: 0;
+    border-bottom: 1px solid gray;
+    margin-top: 2em;
+    margin-bottom: 2.5em;
 }

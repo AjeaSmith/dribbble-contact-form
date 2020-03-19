@@ -1,7 +1,8 @@
 ## Contact us form
-### Design decisions:
+### Tools & Designs:
  - "Montserrat" font. It can be found here [https://fonts.google.com/specimen/Montserrat](https://fonts.google.com/specimen/Montserrat)
  - Flexbox for layout design
+ - [https://unsplash.com/](https://unsplash.com/) used for background images
 
 ### Helpful Links 
 - [https://bennettfeely.com/clippy/](https://bennettfeely.com/clippy/) helped with creating a css clip path to get the desire effect of the background image being cut at the bottom.
@@ -17,4 +18,4 @@ I can definitely say this project gave me a bit of a workout (lol). But learning
 - Figuring out how to make it look good for mobile as well. 
 - I'd admit, the html is not structured in the best way. I had to nest a lot of things (in my opinion) to play nice with flexbox.
 
-I believe this project really gave me my wings. I learned so much and accomplished more than I expected.
+I believe this project really gave me my wings. I learned so much and accomplished more than I expected. 
